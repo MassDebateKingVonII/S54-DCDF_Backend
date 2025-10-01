@@ -29,7 +29,11 @@ app.use(express.urlencoded({ extended: true }));
 //////////////////////////////////////////////////////
 // PROTECT API ROUTES (UNCHANGED)
 //////////////////////////////////////////////////////
-
+app.get("/", (req, res) => {
+    res.status(200).json({
+        message: "API is up and running!"
+    })
+})
 app.use('/api', mainRoutes);
 
 
