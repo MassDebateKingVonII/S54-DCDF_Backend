@@ -1,0 +1,32 @@
+{
+	"dependencies": {
+		"concurrently": "^9.2.1",
+		"cors": "^2.8.5",
+		"dotenv": "^17.2.3",
+		"express": "^5.1.0",
+		"express-validator": "^7.2.1",
+		"mysql2": "^3.15.1",
+		"node-cron": "^4.2.1",
+		"nodemon": "^3.1.10"
+	},
+	"scripts": {
+		"dev": "nodemon index.js",
+		"start": "node index.js",
+		"lint": "eslint"
+	},
+	"name": "s54-dcdf_backend",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MassDebateKingVonII/S54-DCDF_Backend.git"
+	},
+	"bugs": {
+		"url": "https://github.com/MassDebateKingVonII/S54-DCDF_Backend/issues"
+	},
+	"homepage": "https://github.com/MassDebateKingVonII/S54-DCDF_Backend#readme",
+	"description": ""
+}
