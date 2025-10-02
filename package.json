@@ -12,6 +12,7 @@
 	"scripts": {
 		"dev": "nodemon index.js",
 		"start": "node index.js",
+    	"init_tables": "node src/config/db/createSchema.js && node src/config/db/initTables.js",
 		"lint": "eslint"
 	},
 	"name": "s54-dcdf_backend",

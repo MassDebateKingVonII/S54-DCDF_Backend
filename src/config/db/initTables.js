@@ -1,6 +1,6 @@
 // Get the pool from the db.js
 
-const pool = require("../service/db.js");
+const pool = require("../../service/db.js");
 
 const createTablesSQL = `
 -- Modules table
@@ -46,7 +46,7 @@ const modules = [
         "Computer Organisation",
         "Module aims to improve understanding of basic computer hardware components, computer networking and usage of the Linux Operating System. It also touches a little bit on how to use AWS EC2 instance.",
         JSON.stringify(["Low Level computer workings","Binary","Computer Networking","TCP/IP","Ubuntu Linux & Filesystem","HTTP","AWS Cloud"]),
-        4.5,
+        4,
         "/tutorial/foc",
         "year1_sem1"
     ]
